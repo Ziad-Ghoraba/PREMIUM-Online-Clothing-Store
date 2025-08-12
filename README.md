@@ -1,21 +1,22 @@
-# ZIRA Online Clothing Store
+# PREMIUM Online Clothing Store
 
-**ZIRA** is a modern e-commerce platform for online clothing shopping, built with scalability, performance, and clean architecture. It combines cutting-edge technologies and agile practices to deliver a seamless user experience.
+**PREMIUM** is a modern, responsive e-commerce platform for online clothing shopping, built with ASP.NET MVC and Clean Architecture. It combines scalability, performance, and agile practices to deliver a seamless shopping experience.
 
-🔗 **Live Demo:** [ZIRA Online Store](https://zira.runasp.net)
+🔗 **Live Demo:** [PREMIUM Online Store](https://premiumegy.com)
 
 📑 **Presentation**  
-For additional details on ZIRA’s development, including the tech stack and design process, refer to the [ZIRA Project Presentation](/ZIRA-Presentation.pdf).  
+For additional details on PREMIUM’s development, including the tech stack and design process, refer to the [PREMIUM Project Presentation](/PREMIUM-Presentation.pdf).  
 
 ---
 
 ## 🛠️ Technologies
 
-ZIRA leverages a robust tech stack for performance and modularity:
+PREMIUM leverages a robust tech stack for performance and modularity:
 
 ### Backend:
 - **ASP.NET MVC**: Drives server-side logic and routing.
 - **ASP.NET Core Identity**: Manages authentication with custom password policies and unique email requirements.
+- **Google Sign-In Integration**: Enables quick and secure authentication via Google accounts.
 - **Dependency Injection**: Built-in for modular, testable code.
 - **Generic Repository Pattern**: Enables reusable data access.
 - **SendGrid API**: Powers transactional emails via a custom `EmailServiceRepository`.
@@ -28,20 +29,20 @@ ZIRA leverages a robust tech stack for performance and modularity:
 
 ### Development Tools:
 - **Notion**: Manages agile sprints, tasks, and documentation.
-- **Figma**: Used for wireframing and ERD design.
+- **Figma**: Used for wireframing, UI design, and ERD creation.
 
 ---
 
 ## 📋 User Stories
 
-ZIRA’s development was guided by the following user stories:
-[ZIRA User Stories](/ZIRA-User-Stories.pdf).
+PREMIUM’s development was guided by the following user stories:  
+[PREMIUM User Stories](/PREMIUM-User-Stories.pdf).
 
 ---
 
 ## 🧩 Project Structure
 
-ZIRA is organized for clarity and maintainability:
+PREMIUM is organized for clarity and maintainability:
 
 - **Controllers**: `OrderController`, `ItemController`, `AccountController` for request handling.
 - **Models**: `ApplicationUser`, `Item`, `Order` for core data.
@@ -55,40 +56,40 @@ ZIRA is organized for clarity and maintainability:
 ## 📐 Design & Documentation
 
 - **User Stories**: Aligned features with user needs.
-- **Wireframes**: Designed in Figma for intuitive UI flow.
-- **ERD**: Created in Figma for database structure planning.
+- **Wireframes & UI Design**: Created in Figma for intuitive user experience.
+- **ERD**: Designed in Figma for database structure planning.
 - **Agile Documentation**: Managed in Notion for sprint planning and task tracking.
 
 ---
 
-## ⚙️ Development Process
+## ⚙️ Core Features
 
-ZIRA was built using an Agile methodology with Notion for sprint and task management.
-
-### Core Features:
-- Responsive UI across all pages
-- Admin panel for managing users and products
-- Product variant selection and customer reviews
-- Filtered order history for faster tracking
-- Best-seller highlights
-- Unit testing for reliability
-
-### Post-Launch Polish:
-One week dedicated to UI refinements, bug fixes, and performance optimization.
+- Modern, responsive UI across all pages.
+- Google Sign-In for quick, secure authentication.
+- Guest cart allowing users to shop without creating an account.
+- Smart shipping system for faster and optimized delivery options.
+- Discounts on categories, subcategories, and individual items for flexible promotions.
+- Review filtering to help customers make informed decisions.
+- Admin dashboard for managing users, products, and orders.
+- Product variant selection and customer reviews.
+- Filtered order history for faster tracking.
+- Best-seller highlights.
+- Unit testing for reliability.
 
 ---
 
 ## 🧪 Testing & Deployment
 
 - **Unit Testing**: Ensured key functionality before release.
-- **Performance Optimization**: Used `IMemoryCache` for frequently accessed data.
-- **Deployment**: Hosted at `zira.runasp.net`.
+- **Performance Optimization**: Achieved up to **20% faster performance** through WebP image compression, query optimization, and `AsNoTracking`.
+- **Caching**: Used `IMemoryCache` for frequently accessed data.
+- **Deployment**: Hosted at `premiumegy.com`.
 
 ---
 
 ## 🎥 Try It Yourself!
 
-Head over to the [Live Demo](#zira-online-clothing-store) and explore ZIRA — browse products, try out variant selection, manage orders, and more!
+Head over to the [Live Demo](https://premiumegy.com) and explore PREMIUM — browse products, try Google Sign-In, use the guest cart, explore category discounts, and more!
 
 ---
 
@@ -98,4 +99,4 @@ For feedback or inquiries, please open an [issue](../../issues) in this reposito
 
 ---
 
-**Built with 💻 and ☕ by [Ziad Ghoraba](https://www.linkedin.com/in/ziad-ghoraba-developer/)**
+**Built with 💻 and ☕ by [Ziad Ghoraba](https://www.linkedin.com/in/ziad-ghoraba-developer/) & [Sara Elghazaly](https://www.linkedin.com/in/sarahesham/)**
