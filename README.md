@@ -79,8 +79,6 @@ PREMIUM is organized for clarity and maintainability:
 ---
 
 ## 🧪 Testing & Deployment
-
-- **Unit Testing**: Ensured key functionality before release.
 - **Performance Optimization**: Achieved up to **20% faster performance** through WebP image compression, query optimization, and `AsNoTracking`.
 - **Caching**: Used `IMemoryCache` for frequently accessed data.
 - **Deployment**: Hosted at `premiumegy.com`.
