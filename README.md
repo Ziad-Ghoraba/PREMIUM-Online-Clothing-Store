@@ -91,10 +91,17 @@ Head over to the [Live Demo](https://premiumegy.com) and explore PREMIUM — bro
 
 ---
 
+## 👩‍💻 **Project Contributors**  
+- [Ziad Ghoraba](https://www.linkedin.com/in/ziad-ghoraba-developer/)  
+- [Omar Atef](https://www.linkedin.com/in/omar-atef-b4b72a2a6/)  
+- [Mohand Elmesh](https://www.linkedin.com/in/mohand-elmesh-99a2042a6/)  
+- [Hassan Arafat](https://www.linkedin.com/in/hassan-darwish-791ba3308/)
+- [Sara Elghazaly](https://www.linkedin.com/in/sarahesham/)  
+
+---
+
 ## 📬 Contact
 
 For feedback or inquiries, please open an [issue](../../issues) in this repository.
 
----
 
-**Built with 💻 and ☕ by [Ziad Ghoraba](https://www.linkedin.com/in/ziad-ghoraba-developer/) & [Sara Elghazaly](https://www.linkedin.com/in/sarahesham/)**
